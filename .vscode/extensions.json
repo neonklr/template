@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "charliemarsh.ruff",
+    "njpwerner.autodocstring",
+    "esbenp.prettier-vscode",
+    "task.vscode-task"
+  ]
+}
