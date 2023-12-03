@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "<project-name>"
+version = "0.0.1"
+description = ""
+authors = []
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.291"
+
+[tool.poetry.extras]
+pre-commit = ["pre-commit"]
+
+[tool.ruff]
+line-length = 119
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
